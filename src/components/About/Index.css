@@ -1,3 +1,11 @@
+body .about {
+  width: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+
 .about .bg-img {
   position: fixed;
   top: 0;
@@ -5,6 +13,80 @@
   width: 100%;
   z-index: -1;
   object-fit: cover;
-  height: 100vh;
+  object-position: top left;
   height: calc(var(--vh, 1vh) * 100);
+  transition: opacity 0.2s;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+@media (max-width: 992px) {
+  .hide-on-small {
+    display: none;
+  }
+  .show-on-small {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .hide-on-small {
+    display: block;
+  }
+  .show-on-small {
+    display: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-branding h1 {
+  text-align: center;
+  font-family: "Permanent Marker";
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1;
+  padding: 15px;
+  display: inline-block;
+  margin: 40px 50px 50px 40px;
+}
+
+.card {
+  max-width: 450px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-left: 90px;
+}
+
+.card-container .star {
+    position: absolute;
+    padding-left: 470px;
+    margin-top: -26px;
+}
+
+.card p {
+    font-size: 1.1rem;
+    line-height: 1.45rem;
+    margin:28px 22px 16px;
+}
+
+.card-about img {
+  max-width: 40%;
+  height: auto;
+  object-fit: cover;
+  object-position: 36% center;
+}
+
+.card-about {
+  background-color: #22d481;
 }
