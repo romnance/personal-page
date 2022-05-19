@@ -3,6 +3,8 @@ import "./Index.css";
 import theme from "../../images/theme.svg";
 import themeSmall from "../../images/theme-small.svg";
 import AboutCard from "./aboutcard";
+import StarMedium from "../../images/star-medium.svg";
+import { ScrollRotate } from "react-scroll-rotate";
 
 function About() {
   return (
@@ -18,6 +20,11 @@ function About() {
           </div>
         </header>
         <AboutCard />
+        <div className="star-medium">
+          <ScrollRotate method={"perc"}>
+            <img src={StarMedium} alt="painted yellow star" />
+          </ScrollRotate>
+        </div>
       </div>
     </body>
   );

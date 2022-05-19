@@ -1,11 +1,16 @@
 import React from "react";
 import profile from "../../images/profile.png";
 import StarSmall from "../../images/star-small.svg";
+import { ScrollRotate } from "react-scroll-rotate";
 
 function AboutCard() {
   return (
     <div className="card-container">
-      <img src={StarSmall} className="star" alt="Painted yellow star with blue border" />
+      <div className="star">
+        <ScrollRotate method={"perc"}>
+          <img src={StarSmall} alt="Painted yellow star with blue border" />
+        </ScrollRotate>
+      </div>
       <div className="card card-about">
         <img src={profile} alt="author profile picture" />
         <div>
