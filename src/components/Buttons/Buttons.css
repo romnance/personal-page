@@ -1,0 +1,11 @@
+button {
+  background-color: #0028fd;
+  color: #fafd60;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  font-size: 20px;
+  padding: 8px 16px;
+  border-radius: 25px;
+  border: none;
+  width:fit-content;
+}

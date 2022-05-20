@@ -2,6 +2,7 @@ import React from "react";
 import profile from "../../images/profile.png";
 import StarSmall from "../../images/star-small.svg";
 import { ScrollRotate } from "react-scroll-rotate";
+import ContactButton from "../Buttons/ContactButton";
 
 function AboutCard() {
   return (
@@ -22,6 +23,7 @@ function AboutCard() {
           <p>I love nature, good food, nice music and running.</p>
         </div>
       </div>
+      <ContactButton />
     </div>
   );
 }
