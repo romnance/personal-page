@@ -1,8 +1,8 @@
 import React from "react";
-import profile from "../../images/profile.png";
 import StarSmall from "../../images/star-small.svg";
 import { ScrollRotate } from "react-scroll-rotate";
-import ContactButton from "../Buttons/ContactButton";
+import ContactButton from "../Buttons/BlueButton";
+import Liza from "../../images/old_mac.png";
 
 function AboutCard() {
   return (
@@ -13,17 +13,20 @@ function AboutCard() {
         </ScrollRotate>
       </div>
       <div className="card card-about">
-        <img src={profile} alt="author profile picture" />
-        <div>
+        <img src={Liza} alt="old macintosh Liza" />
+        <div className="card-text">
           <p>
             Hi! I&apos;m a <strong>frontend developer</strong> from Stockholm. I love
-            building things for <strong>web</strong>. Art and design are what inspire me
-            every day.
+            building (and occasionally designing) things for <strong>web</strong>. I'm
+            currently developing at{" "}
+            <a href="https://www.linkedin.com/company/zyax/" target="_blank">
+              Zyax.
+            </a>
           </p>
-          <p>I love nature, good food, nice music and running.</p>
+          <p>I love art, nature, good food, nice music and running. </p>
         </div>
       </div>
-      <ContactButton />
+      <ContactButton text="Contact me" />
     </div>
   );
 }

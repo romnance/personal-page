@@ -1,15 +1,9 @@
-<svg width="375" height="678" viewBox="0 0 375 678" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="77.5" y1="676" x2="77.5" y2="2.52171e-08" stroke="#0028FD"/>
-<line x1="234.5" y1="678" x2="234.5" y2="2.52171e-08" stroke="#0028FD"/>
-<line x1="312.5" y1="678" x2="312.5" y2="2.52171e-08" stroke="#0028FD"/>
-<line x1="155.5" y1="676" x2="155.5" y2="2.52171e-08" stroke="#0028FD"/>
-<line y1="43.4739" x2="375" y2="43.4739" stroke="#0028FD"/>
-<line y1="121.65" x2="375" y2="121.65" stroke="#0028FD"/>
-<line y1="199.826" x2="375" y2="199.826" stroke="#0028FD"/>
-<line y1="278.002" x2="375" y2="278.002" stroke="#0028FD"/>
-<line y1="356.177" x2="375" y2="356.177" stroke="#0028FD"/>
-<line y1="434.353" x2="375" y2="434.353" stroke="#0028FD"/>
-<line y1="512.5" x2="375" y2="512.5" stroke="#0028FD"/>
-<line y1="590.5" x2="375" y2="590.5" stroke="#0028FD"/>
-<line y1="668.5" x2="375" y2="668.5" stroke="#0028FD"/>
+<svg width="375" height="678" viewBox="0 0 375 678" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="375" height="678" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.064" height="0.0353982">
+<use xlink:href="#image0_358_350" transform="scale(0.00266667 0.00147493)"/>
+</pattern>
+<image id="image0_358_350" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAADxJREFUSA3t0rEJAEAIxdDv7b+z3gYpxC7WQeFhcjv9bvcnHkBhiSRCAQz8IolQAAO/SCIUwKB+0VgtggHmUQIsFeZn2wAAAABJRU5ErkJggg=="/>
+</defs>
 </svg>

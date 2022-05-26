@@ -3,6 +3,7 @@ import "./Index.css";
 import theme from "../../images/theme.svg";
 import themeSmall from "../../images/theme-small.svg";
 import AboutCard from "./aboutcard";
+import ResumeButton from "../Buttons/BlueButton";
 import StarMedium from "../../images/star-medium.svg";
 import { ScrollRotate } from "react-scroll-rotate";
 
@@ -18,6 +19,9 @@ function About() {
               <h1>Anastasia Romanova</h1>
             </a>
           </div>
+          <a href="/resume.pdf">
+            <ResumeButton text="Resume" />
+          </a>
         </header>
         <AboutCard />
         <div className="star-medium">
