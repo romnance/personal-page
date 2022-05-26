@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# personal webpage project
+# status: wip
+
+Project is under construcution
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
