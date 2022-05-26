@@ -59,11 +59,16 @@ header {
 
 .star-medium {
   margin-left: 8px;
+  margin-bottom: 24px;
 }
 
 .card-about {
   background-color: #22d481;
   border: 1.3px solid grey;
+}
+
+.card-about:hover {
+background-color: #23df87;
 }
 
 .card p a {
@@ -157,7 +162,7 @@ header {
     width: 90%;
     margin: 0.4em 5%;
     font-size: 1.3rem;
-    line-height: 1.65rem;
+    line-height: 1.7rem;
   }
   .site-branding h1 {
     font-size: calc(2em + 5px);

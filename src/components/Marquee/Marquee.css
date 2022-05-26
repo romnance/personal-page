@@ -1,0 +1,20 @@
+.marquee-container {
+  background-color: rgba(221, 186, 225, 0.5);
+}
+
+.marquee-container p {
+  font-family: "Courier";
+  color: rgb(1, 1, 105);
+  margin: 8px 16px;
+  font-weight: 600;
+}
+
+.marquee-container a {
+  color: rgb(1, 1, 105);
+}
+
+.marquee-container a:hover {
+  background-color: #f8c2ff;
+  color: rgb(0, 0, 196);
+  box-shadow: 0px 0px 6px 6px #f8c2ff;
+}

@@ -6,6 +6,7 @@ import AboutCard from "./aboutcard";
 import ResumeButton from "../Buttons/BlueButton";
 import StarMedium from "../../images/star-medium.svg";
 import { ScrollRotate } from "react-scroll-rotate";
+import MarqueeText from "../Marquee/MarqueeText";
 
 function About() {
   return (
@@ -29,6 +30,7 @@ function About() {
             <img src={StarMedium} alt="painted yellow star" />
           </ScrollRotate>
         </div>
+        <MarqueeText />
       </div>
     </body>
   );

@@ -16,10 +16,11 @@ body {
 }
 
 .resume {
-  width: 100%;
+  width: max(630px, 100vw);
   height: 100%;
   background-color: rgb(255, 238, 221);
   padding: 30px;
+  box-sizing: content-box;
 }
 
 .resume button {
