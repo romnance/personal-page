@@ -7,6 +7,7 @@ import ResumeButton from "../Buttons/BlueButton";
 import StarMedium from "../../images/star-medium.svg";
 import { ScrollRotate } from "react-scroll-rotate";
 import MarqueeText from "../Marquee/MarqueeText";
+import Robot from "../Robot/Robot";
 
 function About() {
   return (
@@ -32,6 +33,7 @@ function About() {
         </div>
         <MarqueeText />
       </div>
+      <Robot />
     </body>
   );
 }
